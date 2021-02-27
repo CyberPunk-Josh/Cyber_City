@@ -16,22 +16,32 @@
     justify-content: center;
 }
 
-.cards{
+.cards {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: -75px;
+    justify-content: space-around;
     margin: 0 auto;
     width: 85%;
     height: 30%;
+    
 }
 
-.card{
-    width: 8rem;
-    height: 12rem;
-    background-color: blue;
+.card {
+    width: 18rem;
+    height: 24rem;
+    background-color: rgb(172, 172, 196);
 }
 
 .circle{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: brown;
-    width: 2rem;
-    height: 2rem;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 
@@ -164,4 +174,72 @@
 .formulario_contacto button{
     background: #e8a8ba !important;
     border: #fff solid 1px;
+}
+.icons {
+    font-size: 3rem;
+}
+
+
+.title_cards {
+   text-align: center;
+}
+
+.text_cards {
+    text-align: justify;
+    margin: 1rem;
+}
+
+.imags_row {
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.descrption_work {
+    background-image: url("./img/photo-1495465798138-718f86d1a4bc.webp");
+    background-size: cover;
+    height: 120vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.description_conteiner {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+
+.description_boxes {
+    background-color: rgb(240, 243, 233);
+    height: 250px;
+    width: 250px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+.title_description {
+    height: 100px;
+    width: 80%;
+    background-color:  rgb(240, 243, 233);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons_descrip {
+
 }

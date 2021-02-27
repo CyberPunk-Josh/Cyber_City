@@ -1,0 +1,35 @@
+.header_principal{
+    background-image: url("./img/domenico-loia-hGV2TfOh0ns-unsplash.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.contenedor_principal{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    margin: 0 auto;
+    width: 85%;
+    height: 30%;
+}
+
+.card{
+    width: 8rem;
+    height: 12rem;
+    background-color: blue;
+}
+
+.circle{
+    background-color: brown;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}

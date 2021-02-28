@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 // Paginas:
-import Index from './pages/principal/Heades';
+import Index from './pages/principal/indexPrincipal';
 import Nosotros from './pages/Nosotros/Nosotros';
 
 function App() {
